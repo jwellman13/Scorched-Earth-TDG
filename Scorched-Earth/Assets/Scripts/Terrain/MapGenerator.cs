@@ -32,8 +32,8 @@ public class MapGenerator : MonoBehaviour
             maxHeight = columnMaxHeight;
             for (int j = 0; j < columnMaxHeight; j++)
             {
-                float xOffset = .064f;
-                float yOffset = .064f;
+                float xOffset = .16f;
+                float yOffset = .16f;
                 Vector3 spawnPos = new Vector3(transform.position.x + (xOffset * i), transform.position.y + (yOffset * j), transform.position.z);
                 if(j == columnMaxHeight -1)
                 {
