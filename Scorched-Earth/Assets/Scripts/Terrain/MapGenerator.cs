@@ -8,7 +8,7 @@ public class MapGenerator : MonoBehaviour
     [SerializeField] Tile transitionTile;
     [SerializeField] Tile topTile;
     private int mapWidth = 440;
-    private int mapHeight = 150;
+    private int mapHeight = 100;
     private int maxHeight;
 
     void Start()

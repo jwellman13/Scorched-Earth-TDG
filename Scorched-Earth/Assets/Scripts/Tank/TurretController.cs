@@ -21,7 +21,7 @@ public class TurretController : MonoBehaviour
     {
         foreach (Transform tr in transform)
         {
-            if(tr.name == "tanks_turret1")
+            if(tr.name == "Turret")
             {
                 turret = tr.gameObject;
             }
